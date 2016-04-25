@@ -1,20 +1,22 @@
-# eyeBlinkBehaviour
+#  Sample project 
 
-All codes related to Arduino programming and data saving for the Eye-Blink
-Conditioning Tasks
+This is a working version of a real lab project (https://github.com/ananthmurthy/eyeBlinkBehaviour).  
+This is here for a demo purpose
 
-To build and upload to arduino   
+To build and uploading to arduino  is as simple as typing
 
     $ make 
     $ make upload 
 
-# What to change
+And you can edit your files in your faviorite editor. Works on Mac and Linux.
+
+# What to change?
 
 The source code goes into `src` folder. Open the makefile and changes the values
-of `LOCAL_INO_SRCS` (there should be one or zero `.ino` file). 
+of `LOCAL_INO_SRCS` (there should be one or zero `.ino` file in your project). 
 
 Most of source file would have either extension `.cpp` or `.c`. Append them to
-variable `LOCAL_CPP_SRCS`. For example, the example project has the following:
+variable `LOCAL_CPP_SRCS`. For example, this sample project has the following:
 
 ~~~~
 ## INO file and other cpp files
